@@ -2,36 +2,58 @@
 
 All screenshots belowing were collected on **June 22, 2022**.
 
-## 1、Google
+## 1. Google
 url: https://accounts.google.com/
 
 screenshot: 
-<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/google.png" width="100px">
 
-https://appleid.apple.com/account
+<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/google.png" width="300px">
 
-![](apple.png)
+## 2. Apple
+url: https://appleid.apple.com/account
 
-https://passwordreset.microsoftonline.com/
+screenshot: 
 
-![](microsoft.png)
+<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/apple.png" width="300px">
 
-https://zh.wikipedia.org/w/index.php?title=Special:%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95&returnto=SDA
+## 3. Microsoft
+url: https://passwordreset.microsoftonline.com/
 
-![](wikipedia.png)
+screenshot: 
 
-https://passport.58.com/login/
+<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/microsoft.png" width="300px">
 
-![](58.png)
+## 4. Wikipedia
+url: https://zh.wikipedia.org/w/index.php?title=Special:%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95&returnto=SDA
 
-https://security.weibo.com/iforgot/loginname?entry=sso
+screenshot: 
 
-![](sina.png)
+<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/wikipedia.png" width="300px">
 
-https://weibo.com/login.php/
+## 5. Ganji
+url: https://passport.58.com/login/
 
-![](weibo.png)
+screenshot: 
 
-https://passport.yandex.eu/auth/restore/password/captcha?retpath=https%3A%2F%2Fyandex.eu%2Fsearch%2F%3Flr%3D20897%26msid%3D1655910688614559-1758712018849479388-sas3-0931-2f9-sas-l7-balancer-8080-BAL-7315%26text%3D%26ncrnd%3D26878&login=asd&app_id=
+<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/ganji.png" width="300px">
 
-![](yandex.png)
+## 6. Sina
+url: https://security.weibo.com/iforgot/loginname?entry=sso
+
+screenshot: 
+
+<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/sina.png" width="300px">
+
+## 7. Weibo
+url: https://weibo.com/login.php/
+
+screenshot: 
+
+<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/weibo.png" width="300px">
+
+## 8. Yandex
+url: https://passport.yandex.eu/auth/restore/password/captcha?retpath=https%3A%2F%2Fyandex.eu%2Fsearch%2F%3Flr%3D20897%26msid%3D1655910688614559-1758712018849479388-sas3-0931-2f9-sas-l7-balancer-8080-BAL-7315%26text%3D%26ncrnd%3D26878&login=asd&app_id=
+
+screenshot: 
+
+<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/yandex.png" width="300px">
