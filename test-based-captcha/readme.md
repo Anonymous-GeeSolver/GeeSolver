@@ -1,6 +1,6 @@
 # Text-based Captchas Are still widely used by many famous websites
 
-All screenshots below were collected on **June 22, 2022**.
+All screenshots below were collected on **June 22, 2022**. We have emailed the security administrators of these eight websites about the security risks of their CAPTCHA scheme.
 
 ## 1. Google
 url: https://accounts.google.com/
