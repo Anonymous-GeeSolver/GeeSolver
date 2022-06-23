@@ -7,28 +7,28 @@ url: https://accounts.google.com/
 
 screenshot: 
 
-<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/google.png" width="300px">
+<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/google_en.png" width="300px">
 
 ## 2. Apple
 url: https://appleid.apple.com/account
 
 screenshot: 
 
-<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/apple.png" width="300px">
+<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/apple_en.png" width="300px">
 
 ## 3. Microsoft
-url: https://passwordreset.microsoftonline.com/
+url: https://login.live.com/ppsecure/post.srf
 
 screenshot: 
 
-<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/microsoft.png" width="300px">
+<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/microsoft_en.png" width="300px">
 
 ## 4. Wikipedia
-url: https://zh.wikipedia.org/w/index.php?title=Special:%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95&returnto=SDA
+url: https://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Main+Page
 
 screenshot: 
 
-<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/wikipedia.png" width="300px">
+<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/wikipedia_en.png" width="300px">
 
 ## 5. Ganji
 url: https://passport.58.com/login/
