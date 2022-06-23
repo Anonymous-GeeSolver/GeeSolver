@@ -35,7 +35,7 @@ url: https://passport.58.com/login/
 
 screenshot: 
 
-<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/ganji.png" width="300px">
+<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/58.png" width="300px">
 
 ## 6. Sina
 url: https://security.weibo.com/iforgot/loginname?entry=sso
