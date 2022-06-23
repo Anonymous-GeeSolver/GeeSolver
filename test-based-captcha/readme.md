@@ -6,7 +6,7 @@ All screenshots belowing were collected on **June 22, 2022**.
 url: https://accounts.google.com/
 
 screenshot: 
-<img src="test-based-captcha/google.png" width="100px">
+<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/google.png" width="100px">
 
 https://appleid.apple.com/account
 
