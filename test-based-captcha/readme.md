@@ -1,6 +1,12 @@
-https://accounts.google.com/
+# Text-based Captchas Are still widely used by many famous websites
 
-![](google.png)
+All screenshots belowing were collected on **June 22, 2022**.
+
+## 1、Google
+url: https://accounts.google.com/
+
+screenshot: 
+<img src="test-based-captcha/google.png" width="100px">
 
 https://appleid.apple.com/account
 
