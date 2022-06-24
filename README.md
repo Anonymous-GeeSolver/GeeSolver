@@ -28,7 +28,7 @@ Since GeeSolver contains a sequence-based decoder, overly skewed text will affec
 
 Unpredictable background is rarely considered in the existing captcha design. The core of GeeSolver is MAE, which trains the ViT encoder through the reconstruction task of inferring entire characters from their parts. 
 After introducing unpredictable backgrounds, MAE will pay much attention to recovering meaningless and complex backgrounds, which has a huge negative impact on the training of the VIT encoder. 
-As shown below, we show the reconstructed captchas of MAE using unpredictable backgrounds, more reconstructed cases can be seen in the [reconstructed cases](https://github.com/Anonymous-GeeSolver/GeeSolver/edit/main/DefensePoints/readme.md). For each triplet, we exhibit the ground truth (top), the masked captcha (middle), and MAE reconstruction (bottom). 
+As shown below, we show the reconstructed captchas of MAE using unpredictable backgrounds, more reconstructed cases can be seen in the [reconstructed cases](https://github.com/Anonymous-GeeSolver/GeeSolver/edit/main/DefensePoints). For each triplet, we exhibit the ground truth (top), the masked captcha (middle), and MAE reconstruction (bottom). 
 In the case of the same mask, MAE cannot fully recover the captcha characters due to the interference of complex background noise, which indicates that adding unpredictable background can prevent MAE from extracting high-quality representations.
 After adding unpredictable backgrounds to Google captchas, the accuracy of GeeSolver drops from 90.7% to 3%. It is worth noting that adding unpredictable backgrounds to existing captchas is simple and will not increase the difficulty of recognition for users.
 
