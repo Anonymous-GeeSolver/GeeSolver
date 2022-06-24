@@ -12,9 +12,9 @@ Numerous difficult-to-attack captcha schemes that “damage” the standard font
 
 - Captcha Decoder
 
-Text-based captchas have the common characteristics that text is arranged horizontally from left to right, which inspired the design of a sequence-based decoder to recognize captcha more efficiently. 
+Text-based captchas have the common characteristics that text is arranged horizontally from left to right, which inspired the design of a sophisticated sequence-based decoder to recognize captcha more efficiently. 
 
-The above insights make GeeSolver (composed of a latent feature extractor and a sophisticated decoder) outperforms the state-of-the-arts by a large margin.
+The above insights make GeeSolver (composed of a ViT encoder and a captcha decoder) outperforms the state-of-the-arts by a large margin.
 
 ## Defense Points
 
