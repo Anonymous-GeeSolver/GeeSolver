@@ -26,6 +26,7 @@ Since GeeSolver contains a sequence-based decoder, overly skewed text will affec
 
 <div align=center> <img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/DefensePoints/skewed_captcha.jpg" width="950px"></div>
 
+
 GeeSolver only obtains an accuracy of 22.67% when using 1,000 unlabeled captcha samples. However, the overly skew text is easily corrected by the preprocessing algorithm. Besides, solver can still achieve a high success rate (74.76%) with sufficient unlabeled samples.
 
 - **Unpredictable Background**  (making it difficult for ViT encoder)
