@@ -22,12 +22,17 @@ To defend against our attack, we have also designed two security mechanisms, i.e
 
 - **Overly Skewed Text** (making it difficult for captcha decoder) 
 
-Since GeeSolver contains a sequence-based decoder, overly skewed text will affect performance, which is also proved in the *Microsoft* captchas of dataset A.
+Since GeeSolver contains a sequence-based decoder, overly skewed text will affect performance, which is also proved in the *Microsoft* captchas of dataset A [[1]](https://ieeexplore.ieee.org/document/8327894). GeeSolver only obtains an accuracy of 22.67% when using 1,000 unlabeled captcha samples. Although the overly skewed text provides a feasible direction to resist the solver attack, it is easily corrected by the preprocessing algorithm. Besides, our solver can still achieve a high success rate (74.76%) with sufficient unlabeled samples.
 
 <div align=center> <img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/DefensePoints/skewed_captcha.jpg" width="950px"></div>
 
+The overly skewed scheme is selected from the *Microsoft* captcha scheme of dataset A provided by the Tang et al. [[1]](https://ieeexplore.ieee.org/document/8327894) and the conventional scheme is selected from the *Microsoft* captcha scheme of dataset B provided by the Ye et al. [[2]](https://dl.acm.org/doi/10.1145/3243734.3243754).
 
-GeeSolver only obtains an accuracy of 22.67% when using 1,000 unlabeled captcha samples. However, the overly skew text is easily corrected by the preprocessing algorithm. Besides, solver can still achieve a high success rate (74.76%) with sufficient unlabeled samples.
+[1] Mengyun Tang, Haichang Gao, Yang Zhang, Yi Liu, Ping Zhang, and Ping Wang. 2018. [Research on deep learning techniques in breaking text-based captchas and
+designing image-based captcha](https://ieeexplore.ieee.org/document/8327894). IEEE Transactions on Information Forensics and Security, vol. 13, no. 10, pp. 2522–2537.
+
+[2] Guixin Ye, Zhanyong Tang, Dingyi Fang, Zhanxing Zhu, Yansong Feng, Pengfei Xu, Xiaojiang Chen, and Zheng Wang. 2018. [Yet another text captcha solver: A
+generative adversarial network based approach](https://dl.acm.org/doi/10.1145/3243734.3243754). In Proceedings of the 2018 ACM SIGSAC Conference on Computer and Communications Security (CCS). pp. 332–348.
 
 - **Unpredictable Background**  (making it difficult for ViT encoder)
 
