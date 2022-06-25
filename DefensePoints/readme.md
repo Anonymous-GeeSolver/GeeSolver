@@ -11,13 +11,13 @@ As shown below, we show the reconstructed captchas of MAE using unpredictable ba
 In the case of the same mask, MAE cannot fully recover the captcha characters due to the interference of complex background noise, which indicates that adding unpredictable background can prevent MAE from extracting high-quality representations.
 After adding unpredictable backgrounds to Google captchas, the accuracy of GeeSolver drops from 90.7% to 3%. It is worth noting that adding unpredictable backgrounds to existing captchas is simple and will not increase the difficulty of recognition for users.
 
-<div align=center> <img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/DefensePoints/new_captcha.jpg" width="850px"></div>
+<div align=center> <img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/DefensePoints/new_captcha.jpg" width="950px"></div>
 
 ## Overly Skewed Text (making it difficult for captcha decoder) 
 
 Since GeeSolver contains a sequence-based decoder (i.e., left-to-right recognition), overly skewed text will affect performance, which is also proved in the *Microsoft* captchas of dataset A [[1]](https://ieeexplore.ieee.org/document/8327894). GeeSolver only obtains an accuracy of 22.67% when using 1,000 unlabeled captcha samples. Although the overly skewed text provides a feasible direction to resist the solver attack, it is easily corrected by the preprocessing algorithm. Besides, our solver can still achieve a high success rate (74.76%) with sufficient unlabeled samples.
 
-<div align=center> <img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/DefensePoints/skewed_captcha.jpg" width="1000px"></div>
+<div align=center> <img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/DefensePoints/skewed_captcha.jpg" width="950px"></div>
 
 The overly skewed scheme is selected from the *Microsoft* captcha scheme of dataset A provided by the Tang et al. [[1]](https://ieeexplore.ieee.org/document/8327894) and the conventional scheme is selected from the *Microsoft* captcha scheme of dataset B provided by the Ye et al. [[2]](https://dl.acm.org/doi/10.1145/3243734.3243754).
 
