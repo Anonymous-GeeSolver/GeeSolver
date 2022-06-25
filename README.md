@@ -24,7 +24,7 @@ To defend against our attack, we have also designed two security mechanisms, i.e
 
 Since GeeSolver contains a sequence-based decoder, overly skewed text will affect performance, which is also proved in the *Microsoft* captchas of dataset A. However, the overly skew text is easily corrected by the preprocessing algorithm. Besides, solver can still achieve a high success rate with sufficient unlabeled samples.
 
-<div align=center> <img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/DefensePoints/skewed_captcha.jpg" width="350px"></div>
+<div align=center> <img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/DefensePoints/skewed_captcha.jpg" width="950px"></div>
 
 - **Unpredictable Background**  (making it difficult for ViT encoder)
 
