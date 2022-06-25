@@ -2,7 +2,7 @@
 
 ## Overview of GeeSolver
 
-We first design a generic and efficient baseline model (GeeSolver model) to break captchas with a ViT-based latent representation extractor and a captcha decoder. Then, in stage I, we leverage unlabeled captchas to train our latent representation extractor with the MAE-sytle paradigm. In stage II, the same unlabeled captchas and a few labeled captchas (additional) are used to train the captcha decoder with semi-supervised method.
+We first design a generic and efficient baseline model (GeeSolver model) to break captchas with a ViT-based latent representation extractor and a captcha decoder. In stage I, we leverage unlabeled captchas to train our latent representation extractor with the MAE-sytle paradigm. In stage II, the same unlabeled captchas and a few labeled captchas (additional) are used to train the captcha decoder with semi-supervised method.
 
 ## Insights
 
