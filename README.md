@@ -18,7 +18,7 @@ Text-based captchas have the common characteristics that text is arranged horizo
 
 ## Defense Points
 
-To defend against our attack, we have also designed two security mechanisms, i.e., the **unpredictable background** and the **overly skewed text**.
+We have reported security issues of text-based captcha to the corresponding company. To defend against our attack, we have also designed two security mechanisms, i.e., the **unpredictable background** and the **overly skewed text**.
 
 ### Unpredictable Background (making it difficult for ViT encoder)
 
