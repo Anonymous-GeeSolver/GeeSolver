@@ -24,6 +24,8 @@ To defend against our attack, we have also designed two security mechanisms, i.e
 
 Since GeeSolver contains a sequence-based decoder, overly skewed text will affect performance, which is also proved in the *Microsoft* captchas of dataset A. However, the overly skew text is easily corrected by the preprocessing algorithm. Besides, solver can still achieve a high success rate with sufficient unlabeled samples.
 
+<div align=center> <img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/DefensePoints/skewed_captcha.jpg" width="350px"></div>
+
 - **Unpredictable Background**  (making it difficult for ViT encoder)
 
 Unpredictable background is rarely considered in the existing captcha design. The core of GeeSolver is MAE, which trains the ViT encoder through the reconstruction task of inferring entire characters from their parts. 
@@ -32,7 +34,7 @@ As shown below, we show the reconstructed captchas of MAE using unpredictable ba
 In the case of the same mask, MAE cannot fully recover the captcha characters due to the interference of complex background noise, which indicates that adding unpredictable background can prevent MAE from extracting high-quality representations.
 After adding unpredictable backgrounds to Google captchas, the accuracy of GeeSolver drops from 90.7% to 3%. It is worth noting that adding unpredictable backgrounds to existing captchas is simple and will not increase the difficulty of recognition for users.
 
-<div align=center><img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/DefensePoints/new_captcha_part.bmp" width="950px">
+<div align=center><img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/DefensePoints/new_captcha_part.jpg" width="950px">
 
 
 
