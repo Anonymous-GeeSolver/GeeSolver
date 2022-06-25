@@ -32,7 +32,7 @@ After adding unpredictable backgrounds to Google captchas, the accuracy of GeeSo
 
 ### Overly Skewed Text (making it difficult for captcha decoder) 
 
-Since GeeSolver contains a sequence-based decoder (i.e., left-to-right recognition), overly skewed text will affect performance, which is also proved in the *Microsoft* captchas of dataset A [[1]](https://ieeexplore.ieee.org/document/8327894). GeeSolver only obtains an accuracy of 22.67% when using 1,000 unlabeled captcha samples. Although the overly skewed text provides a feasible direction to resist the solver attack, it is easily corrected by the preprocessing algorithm. Besides, our solver can still achieve a high success rate (74.76%) with sufficient unlabeled samples.
+Since GeeSolver contains a sequence-based decoder (i.e., left-to-right recognition), overly skewed text will affect performance, which is also proved in the *Microsoft* captchas of dataset A [[1]](https://ieeexplore.ieee.org/document/8327894). GeeSolver only obtains an accuracy of 22.67% when using 500 labeled and 1,000 unlabeled captcha samples. Although the overly skewed text provides a feasible direction to resist the solver attack, it is easily corrected by the preprocessing algorithm. Besides, our solver can still achieve a high success rate (74.76%) with sufficient unlabeled samples (5,000 unlabeled captchas).
 
 <div align=center><img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/DefensePoints/skewed_captcha.jpg" width="950px"></div>
 
