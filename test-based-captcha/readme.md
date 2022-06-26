@@ -10,7 +10,7 @@ screenshot:
 <img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/google_en.png" width="300px">
 
 ## 2. Yandex
-url: https://passport.yandex.eu/auth/restore/password/captcha?retpath=https%3A%2F%2Fyandex.eu%2Fsearch%2F%3Flr%3D20897%26msid%3D1655910688614559-1758712018849479388-sas3-0931-2f9-sas-l7-balancer-8080-BAL-7315%26text%3D%26ncrnd%3D26878&login=asd&app_id=
+url: https://passport.yandex.eu/auth/restore/password/captcha
 
 screenshot: 
 
