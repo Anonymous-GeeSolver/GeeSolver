@@ -9,12 +9,12 @@ screenshot:
 
 <img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/google_en.png" width="300px">
 
-## 2. Apple
-url: https://appleid.apple.com/account
+## 2. Yandex
+url: https://passport.yandex.eu/auth/restore/password/captcha?retpath=https%3A%2F%2Fyandex.eu%2Fsearch%2F%3Flr%3D20897%26msid%3D1655910688614559-1758712018849479388-sas3-0931-2f9-sas-l7-balancer-8080-BAL-7315%26text%3D%26ncrnd%3D26878&login=asd&app_id=
 
 screenshot: 
 
-<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/apple_en.png" width="300px">
+<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/Yandex.png" width="300px">
 
 ## 3. Microsoft
 url: https://login.live.com/ppsecure/post.srf
@@ -30,12 +30,12 @@ screenshot:
 
 <img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/wikipedia_en.png" width="300px">
 
-## 5. Ganji
-url: https://passport.58.com/login/
+## 5. Weibo
+url: https://weibo.com/login.php/
 
 screenshot: 
 
-<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/58.png" width="300px">
+<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/weibo.png" width="300px">
 
 ## 6. Sina
 url: https://security.weibo.com/iforgot/loginname?entry=sso
@@ -44,16 +44,17 @@ screenshot:
 
 <img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/sina.png" width="300px">
 
-## 7. Weibo
-url: https://weibo.com/login.php/
+## 7. Apple
+url: https://appleid.apple.com/account
 
 screenshot: 
 
-<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/weibo.png" width="300px">
+<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/apple_en.png" width="300px">
 
-## 8. Yandex
-url: https://passport.yandex.eu/auth/restore/password/captcha?retpath=https%3A%2F%2Fyandex.eu%2Fsearch%2F%3Flr%3D20897%26msid%3D1655910688614559-1758712018849479388-sas3-0931-2f9-sas-l7-balancer-8080-BAL-7315%26text%3D%26ncrnd%3D26878&login=asd&app_id=
+## 8. Ganji
+url: https://passport.58.com/login/
 
 screenshot: 
 
-<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/yandex.png" width="300px">
+<img src="https://github.com/Anonymous-GeeSolver/GeeSolver/blob/main/test-based-captcha/58.png" width="300px">
+
