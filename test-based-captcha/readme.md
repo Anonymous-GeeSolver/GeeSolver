@@ -1,6 +1,6 @@
 # Text-Based Captcha Schemes Used by Famous Websites
 
-All screenshots below were collected on **June 22, 2022**. We have emailed the security administrators of these eight websites about the security risks of their CAPTCHA scheme.
+All screenshots below were collected on **June 22, 2022** from the official website. On these websites, after multiple consecutive incorrect passwords are entered, the user will be required to submit both the password and the results of text-based captchas.  We have emailed the security administrators of these eight websites about the security risks of their captcha scheme.
 
 ## 1. Google
 url: https://accounts.google.com/
